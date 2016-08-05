@@ -36,7 +36,6 @@ requires 'autodie';
 requires 'autovivification';
 requires 'custom::failures';
 requires 'GStreamer1';
-requires 'GStreamer1::Interfaces';
 
 on test => sub {
     requires 'Data::DPath';
